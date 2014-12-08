@@ -1,0 +1,218 @@
+﻿html, body
+{
+height: 100%;
+background-color:#D5C9C9;
+margin:0;
+}
+header
+{
+	display: block;
+    width: 100%;
+	margin:0;
+	top:-20px;
+    border: 1px solid rgb(39, 48, 50);
+    vertical-align: top;
+	background-color: rgb(39, 48, 50);
+}
+
+#navGauche
+{
+    display: inline-block;
+	float: left;
+	margin-left: -11%;
+    width: 170px;
+	height: 150%;
+    vertical-align: top;
+	background-color: rgb(39, 48, 50);
+}
+
+#navHeader {
+	display:block;
+	float:right;
+	margin-top:-3%;
+}
+
+.menuPHaut {
+	background-size: 20px;
+	background-repeat:no-repeat;
+	background-position: 0% 65%;
+	padding-left: 27px;
+	list-style-type:none;
+}
+
+#compteBtn {
+	background-image: url(Images/icon_compte.ico);
+}
+
+#deconnect{
+	background-image: url(Images/icon_deconect.ico);
+}
+
+ul#menuHaut li{
+	display:inline;
+	list-style-type:none;
+	padding-right:0.5em;
+}
+
+section
+{
+    display: inline-block;    
+	width: 80%;
+	margin-left:-0.7%;
+    vertical-align: top;
+	vertical-align: left;
+}
+
+label
+{
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+label, input
+{
+	margin-left: 10%;
+}
+
+#titreMenuNav {
+	font-size:17px;
+	color: #869992;
+}
+
+li a{
+    text-decoration: none;
+	color: #869992;
+	list-style-type: none;
+}
+
+li a:hover{
+    color:white;
+}
+
+.menuP {
+	background-size: 20px;
+	background-repeat:no-repeat;
+	background-position: 0% 65%;
+	padding-left:19%;
+	margin-bottom:8%;
+	list-style-type:none;
+}
+
+#accueil {
+	background-image: url(Images/icon_home.ico);
+}
+#enseignements {
+	background-image: url(Images/icon_enseign.ico);
+}
+#filieres {
+	background-image: url(Images/icon_link.ico);
+}
+#classes {
+	background-image: url(Images/icon_classes.ico);
+}
+#eleves {
+	background-image: url(Images/icon_eleves.ico);
+}
+
+h4 {
+	margin-left: -8%;
+	color: #005533;
+}
+input, textarea {
+	width:200px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+#margo
+{
+	display: block;
+	width: 10%;
+	height:100%;
+	margin-left: 0.5%;
+	float: left;
+	font:normal Arial;
+	color:#FFFFFF;
+	text-shadow: 0 1px 0 #ccc,
+	0 2px 0 #c9c9c9,
+	0 3px 0 #bbb,
+	0 4px 0 #b9b9b9,
+	0 5px 0 #aaa,
+	0 6px 1px rgba(0,0,0,.1),
+	0 0 5px rgba(0,0,0,.1),
+	0 1px 3px rgba(0,0,0,.3),
+	0 3px 5px rgba(0,0,0,.2),
+	0 5px 10px rgba(0,0,0,.25),
+	0 10px 10px rgba(0,0,0,.2),
+	0 20px 20px rgba(0,0,0,.15);
+}
+
+#enseignants
+{
+	display:block;
+	color: white;
+	height:100%;
+	text-align:left;
+}
+
+#compte
+{
+	padding-top:2%;
+	font-family:'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+    font-size: 1.75em;
+	letter-spacing: .2em;
+	line-height: 1.1em;
+	margin:0px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#form1
+{
+	width:500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5%;
+}
+
+input#btnEnvoyer {
+width:500px;
+height:40px;
+background: #3e9cbf; /*the colour of the button*/
+padding: 8px 14px 10px; /*apply some padding inside the button*/
+border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+/*style the text*/
+font-size:1.5em;
+font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+letter-spacing:.1em;
+text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+color: #fff;
+/*use box-shadow to give the button some depth - see cssdemos.tupence.co.uk/box-shadow.htm#demo7 for more info on this technique*/
+-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+/*give the corners a small curve*/
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+/***SET THE BUTTON'S HOVER AND FOCUS STATES***/
+input#btnEnvoyer:hover, input#btnEnvoyer:focus {
+color:#dfe7ea;
+/*reduce the size of the shadow to give a pushed effect*/
+-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+}
+#menuHaut
+{
+	float:right;
+}

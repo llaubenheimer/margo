@@ -5,13 +5,17 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
-        // put your code here
-        ?>
-    </body>
+<head>
+<title>Formulaire d'identification</title>
+</head>
+
+<body>
+<form action="login.php" method="post">
+Votre login : <input type="text" name="login">
+<br />
+Votre mot de passe : <input type="password" name="pwd"><br />
+<input type="submit" value="Connexion">
+</form>
+
+</body>
 </html>
